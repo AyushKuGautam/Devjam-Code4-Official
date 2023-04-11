@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clubs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo mnnit 2.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="clubs.html">CLUBS</a></li>
+                    <li><a href="Committee.html">COMMITTEES</a></li>
+                    <li><a href="FAQ's.html">FAQ'S</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Clubs</h1>
+</section> 
+
+<!-- about us content-->
+
+<section class="clubs">
+
+    <div class="row">
+        <div class="clubs-col">
+            <h2>MNNIT COMPUTER CODING CLUB</h2>
+            <p>We are an educational club at Motilal Nehru National Institute Of Technology, Allahabad, Prayagraj an Institute of National Importance. MNNIT Computer Coding Club as we call it is an official student organisation under Student Activity Centre (SAC) of our college. We host several events in the domain of Computer Science And Engineering for which we also conduct classes on regular basis. Students from various courses actively participate in these events and classes throughout the year. <br>
+                <a href="https://www.facebook.com/groups/ccqueries">Official Facebook Page</a><br>
+                <a href="https://www.instagram.com/cc.club.mnnit/?igshid=YmMyMTA2M2Y%3D">Official Instagram Page</a>
+            </p>
+            <h2>MNNIT ROBOTICS CLUB</h2>
+            <p>Robotics Club MNNIT is a diverse group of robotics enthusiasts from all the college departments, which runs under the umbrella of the Student Activity Centre of MNNIT Allahabad. Established in 2016, we are mainly concerned with building robots for academic purposes, competing at national events, or even building just out of imagination. This also puts us in frequent contact with a plethora of software, hardware, and technologies, like Computer Vision, Simulation Softwares (Gazebo, Pybullet, etc.), CAD Softwares, ROS, devising algorithms, path planning, Machine Learning, Microcontrollers, Kinematics to name just a few of many. Since its creation, this club has seen the completion of hundreds of projects, participated and won accolades in multiple national-level events, and organized various workshops with a decent footfall. <br>
+                <a href="https://roboticsclub.mnnit.ac.in/">Official Website</a> <br>
+                <a href="https://www.facebook.com/avishkar.robotics">Official Facebook Page</a> <br>
+                <a href="https://www.instagram.com/roboticsclubmnnit/?igshid=YmMyMTA2M2Y%3D">Official Instagram Page</a>
+            </p>
+            <h2>MNNIT LITERARY CLUB</h2>
+            <p>The Literary Club of MNNIT works to allow you to freely express your ideas through various literary forms to enhance your creative faculties, which are responsible for developing skills that will keep you ahead in life and dispel the most common apprehension of the general public. <br>
+                <a href="https://www.facebook.com/MNNITLitClub">Official Facebook Page</a> <br>
+                <a href="https://www.instagram.com/litclub_mnnit/">Official Instagram Page</a>
+            </p> 
+            <h2>MNNIT CHESS CLUB</h2>
+            <p>MNNIT Chess Club is a club formed for the purpose of playing the board game of chess. The club provides for both informal and tournament games and sometimes offer league play. Traditionally club host over the board, face to face chess more than play on internet chess servers or computer chess. <br>
+                <a href="https://www.facebook.com/chessclubmnnit">Official Facebook Page</a> <br>
+                <a href="https://www.instagram.com/mnnit_chess_club/?igshid=YmMyMTA2M2Y%3D">Official Instagram Page</a>
+            </p>
+            <h2>Electronics Society</h2>
+            <p>To provide quality education leading to B.Tech, M.Tech & Ph.D. degree in the area of electronics and communication engineering and technology which may produce globally acceptable, high quality skilled technical manpower.
+
+                To become a globally leading Institution of higher learning, building upon culture a contemporary education, and a center of research and education generating the knowledge and technologies which lay the groundwork in shaping the future and the values of universal science and in the fields of electronics and communications engineering. <br>
+                <a href="https://ecesociety.mnnit.ac.in/">Official Website</a> <br>
+                <a href="https://www.facebook.com/groups/730124614698532/?ref=share&mibextid=NSMWBT">Facebook Page</a>
+            </p>
+            <h2>AEROCLUB MNNIT</h2>    
+            <p>Unleash your imagination and let it take flight,With the Aero club,the sky is your canvas and the limit is out of sight.
+            </p>
+
+        </div>
+        <div class="about-col">
+            <img src="">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+
+
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p><h5>Motilal Nehru National Institute Of Technology</h5>
+       Copyright© 2023 Motilal Nehru National Institute Of Technology. <br> All Rights Reserved. 
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Code-4 Official</p> 
+
+</section>
+
+
+
+   
